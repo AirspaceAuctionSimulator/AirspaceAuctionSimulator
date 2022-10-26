@@ -1,0 +1,44 @@
+{
+  "name": "visualizer",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview --port 5050",
+    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore",
+    "lint:fix": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore --fix"
+  },
+  "dependencies": {
+    "@babylonjs/core": "^5.23.0",
+    "@babylonjs/loaders": "5.23.0",
+    "@mdi/js": "^6.6.96",
+    "@vicons/ionicons5": "^0.12.0",
+    "@vueuse/core": "^8.4.2",
+    "apexcharts": "^3.35.2",
+    "axios": "^0.27.2",
+    "date-fns": "^2.29.2",
+    "earcut": "^2.2.3",
+    "file-saver": "^2.0.5",
+    "lodash-es": "^4.17.21",
+    "mitt": "^3.0.0",
+    "ol": "^6.14.1",
+    "perfect-scrollbar": "^1.5.5",
+    "pinia": "^2.0.11",
+    "simplify-js": "^1.2.4",
+    "unique-names-generator": "^4.7.1",
+    "vue": "^3.2.33",
+    "vue-router": "^4.0.15",
+    "vue3-apexcharts": "^1.4.1"
+  },
+  "devDependencies": {
+    "@rushstack/eslint-patch": "^1.1.0",
+    "@vitejs/plugin-vue": "^2.2.2",
+    "@vue/eslint-config-prettier": "^7.0.0",
+    "eslint": "^8.10.0",
+    "eslint-plugin-vue": "^8.2.0",
+    "naive-ui": "^2.32.1",
+    "prettier": "^2.5.1",
+    "vfonts": "^0.0.3",
+    "vite": "^2.9.13"
+  }
+}
